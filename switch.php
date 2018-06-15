@@ -1,8 +1,8 @@
 <?php
-$x = 'ValidateRQ';
+$x = null;
 switch($x){
-	case 'ValidateRQ':
-	echo '我';
+	case $x<1:
+	echo '445';
 	break;
 	case 2:
 	echo '是';
