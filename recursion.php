@@ -1,18 +1,12 @@
 <?php
-/*
- * 递归
- * $param int $n
- *
- */
-
 function test($n)
 {
-    echo $n."&nbsp;&nbsp;";
+    echo $n.'&nbsp;';
     if($n>0){
         test($n-1);
     }else{
-        echo "<-->";
+        echo '<-->';
     }
-    echo $n.'&nbsp;&nbsp;';
+    echo $n.'&nbsp;';
 }
 test(10);

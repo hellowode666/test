@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	function test(v){
+		document.write(v+'&nbsp;&nbsp;');
+		if(v>0){
+			test(v-1);
+		}else{
+			document.write('<-->');
+		}
+		document.write(v+'&nbsp;&nbsp;');
+	}
+	test(10);
+
+</script>
+</body>
+</html>
